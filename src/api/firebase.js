@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCQ7JgPgzSYZLIFHd7jddoWJzJwmHSFIP4",
-  authDomain: "medaid-9cbec.firebaseapp.com",
-  projectId: "medaid-9cbec",
-  storageBucket: "medaid-9cbec.appspot.com",
-  messagingSenderId: "179076895770",
-  appId: "1:179076895770:web:fa2a5968d04b1da917eda3",
+  apiKey: "AIzaSyBwg9cE6bWtZgAMFqW_K_vSyMuV2cQr9rE",
+  authDomain: "medaid-895c9.firebaseapp.com",
+  projectId: "medaid-895c9",
+  storageBucket: "medaid-895c9.appspot.com",
+  messagingSenderId: "331803034642",
+  appId: "1:331803034642:web:b70d3f164336f5fc5104cb",
+  measurementId: "G-VKLSCZM2PV",
 };
 
 const firebase = initializeApp(firebaseConfig);
