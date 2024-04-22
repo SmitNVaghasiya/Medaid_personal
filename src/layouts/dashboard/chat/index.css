@@ -1,0 +1,73 @@
+/* .messaging.str-chat .str-chat__header-livestream {
+  box-shadow: 0 2px 9px 0 var(--border),0 1px 0 0 var(--border);
+} */
+
+.messaging.str-chat .str-chat__header-livestream, .str-chat-channel-list .str-chat__channel-list-messenger__main, .str-chat__input-flat .str-chat__textarea>textarea, .str-chat__message-actions-list, .str-chat__message-actions-box {
+  box-shadow: rgb(255 255 255 / 90%) 0rem 0rem 0.0625rem 0.0625rem inset, rgb(0 0 0 / 5%) 0rem 1.25rem 1.6875rem 0rem;
+  border-radius: 1rem;
+}
+
+.str-chat.messaging, .str-chat.commerce {
+  background-color: none;
+  padding: 1rem;
+}
+
+.str-chat-channel.messaging .str-chat__main-panel {
+  padding: 0;
+}
+
+.messaging.str-chat .str-chat__list .str-chat__reverse-infinite-scroll {
+  padding: 0;
+}
+
+.messaging.str-chat .str-chat__list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  background: var(--white);
+  border-radius: 1rem;
+}
+
+.str-chat__input-flat {
+  border-radius: 1rem;
+  padding: 0;
+}
+
+.str-chat {
+  height: inherit;
+}
+
+.str-chat__header-hamburger--line {
+  background-color: rgb(52, 71, 103);
+}
+
+.str-chat-channel-list .str-chat__channel-list-messenger__main {
+  padding: 0;
+}
+
+.str-chat__message-actions-list {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 960px) {
+  .str-chat-channel-list.messaging {
+    top: inherit;
+    min-height: 0vh;
+    height: 76%;
+    border-radius: 1rem;
+    background-color: #ffffff;
+  }
+
+  .str-chat-channel-list--open.messaging {
+    left: inherit;
+  }
+
+  .str-chat__header-hamburger {
+    background-color: #ffffff;
+    border: none;
+  }
+
+  .str-chat__header-hamburger:hover .str-chat__header-hamburger--line {
+    background-color: rgb(52, 71, 103);
+  }
+}
